@@ -1,11 +1,16 @@
 /* For visibility while testing */
-/* slight gray on whole page to see what's covered */
 body {
+	/* slight gray on whole page to see what's covered */
     background-color: LightGray;
-
-/* adding a border around all 'div's to see where they sit */
+    /* Global font declarations */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
 }
+
 div {
+	/* adding a border around all 'div's to see where they sit */
     border: 1px solid Chocolate;
 }
 
@@ -17,9 +22,9 @@ div {
 .top-navigation > .content {
 	width: 60rem;
 	height: 4.375rem;
-	margin: 0 18rem 0 18rem;
+	margin: 0 18rem;
 	border: 0;
-	padding: 0 0.938rem 0 0.938rem;
+	padding: 0 0.938rem;
 }
 
 .top-navigation .content > .logo {
@@ -27,12 +32,14 @@ div {
 	/* margin-left: 0.875rem;*/
 	height: 4.375rem;
 }
-.nav-links {
+.top-navigation .content > .links {
 	text-decoration: none;
 	list-style-type: none;
+	float: right;
+	margin: 1.7rem 0 0 0;
 }
 
-.nav-banner .nav-links > li {
+.top-navigation .content .links > li {
 	display: inline-block;
 }
 

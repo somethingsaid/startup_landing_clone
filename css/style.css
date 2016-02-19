@@ -13,11 +13,6 @@ html {
 body {
 	/* slight gray on whole page to see what's covered */
     background-color: LightGray;
-    /* Global font declarations */
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #838994;
-    letter-spacing: 0.03rem;
 }
 
 div {
@@ -41,37 +36,25 @@ div {
 .top-navigation .content > .logo {
 	height: 4.375rem;
 }
-.top-navigation .content > .links {
-	text-decoration: none;
-	list-style-type: none;
-	float: right;
-	margin-top: 1.7rem;
-	padding: 0;
-	margin-bottom: 0;
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1rem;
+    margin-top: 1.563rem;
 }
 
-.top-navigation .links > li {
-	display: inline-block;
-	margin-left: 1.563rem;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
 }
-
-.top-navigation .links > .active {
-	color: #4c5058;
+.top-navigation .links .active {
+    color: #4c5058;
     font-weight: 500;
 }
-
-.top-navigation .links > li:link {
-	text-decoration: none;
-}
-
-
-.top-navigation .links > li:visited {
-	text-decoration: none;
-}
-
-
-.top-navigation .links > li:hover {
-	text-decoration: none;
+.top-navigation .links li:hover {
+    cursor: pointer;
     color: #000;
 }
 

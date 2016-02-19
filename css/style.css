@@ -48,10 +48,24 @@ div {
 }
 
 .top-navigation .links > .active {
-	ccolor: #4c5058;
+	color: #4c5058;
     font-weight: 500;
 }
 
+.top-navigation .links > li:link {
+	text-decoration: none;
+}
+
+
+.top-navigation .links > li:visited {
+	text-decoration: none;
+}
+
+
+.top-navigation .links > li:hover {
+	text-decoration: none;
+    color: #000;
+}
 
 /* Main - Introduction Canvas */
 

@@ -23,7 +23,8 @@ div {
 }
 
 .top-navigation .content > .logo {
-	margin-left: 0.875rem;
+	/* actual example has logo flush with div content*/
+	/* margin-left: 0.875rem;*/
 	height: 4.375rem;
 }
 .nav-links {

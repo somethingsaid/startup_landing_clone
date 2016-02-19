@@ -9,18 +9,34 @@ div {
     border: 1px solid Chocolate;
 }
 
-.nav-banner {
-    background-color: white;
-    width: 90em;
-    height: 4.4375em;
-    text-align: center;
+/* Navigation Banner and Links */
+.top-navigation {
+    background-color: #fff;
 }
 
-.nav-banner > div {
-	width: 52.124em;
-	height: 4.375em;
-	padding: 0 0.938em 0 0.938em;
+.top-navigation > .content {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 18rem 0 18rem;
 	border: 0;
-	margin: 0 18em 0 18em;
-
+	padding: 0 0.938rem 0 0.938rem;
 }
+
+.top-navigation .content > .logo {
+	margin-left: 0.875rem;
+	height: 4.375rem;
+}
+.nav-links {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.nav-banner .nav-links > li {
+	display: inline-block;
+}
+
+/* Main - Introduction Canvas */
+
+/* Section - Product Details */
+
+/* Footer - Social Networks */

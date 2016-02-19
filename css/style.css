@@ -26,10 +26,17 @@ div {
     background-color: #fff;
 }
 
+.content {
+    width: 52.124rem;
+    margin: 0 18rem; */
+    padding: 0 0.938rem;
+    min-width: 37.5rem;
+}
+
 .top-navigation > .content {
-	width: 52.124rem;
+	/*width: 52.124rem;*/
 	height: 4.375rem;
-	margin: 0 18rem;
+	/*margin: 0 18rem;*/
 	border: 0;
 	padding: 0 0.938rem;
 }
@@ -59,7 +66,40 @@ div {
 }
 
 /* Main - Introduction Canvas */
+.main-section {
+	/* use relative path for image, css is in css/, image is in ../image/ */
+	/* Main banner image declaration */
+	background-image: url("../images/first-background_copy.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
 
+.main-section .content > h1, 
+.main-section .content > h3 {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+}
+
+.main-section .content > h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.main-section .content > h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+/* Button declarations */
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+}
 /* Section - Product Details */
 
 /* Footer - Social Networks */

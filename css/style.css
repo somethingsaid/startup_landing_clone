@@ -13,6 +13,7 @@ html {
 body {
 	/* slight gray on whole page to see what's covered */
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -39,7 +40,6 @@ div {
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 1rem;
     margin-top: 1.563rem;

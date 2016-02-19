@@ -1,0 +1,10 @@
+/* For visibility while testing */
+/* slight gray on whole page to see what's covered */
+body {
+    background-color: LightGray;
+
+/* adding a border around all 'div's to see where they sit */
+}
+div {
+    border: 1px solid Chocolate;
+}

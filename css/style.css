@@ -113,6 +113,12 @@ button:hover {
     cursor: pointer;
 }
 
-/* Section - Product Details */
+/* Section - Features */
+.features .features-list {
+	color: #fff;
+}
 
+.features .features-list li {
+	display: inline-block;
+}
 /* Footer - Social Networks */

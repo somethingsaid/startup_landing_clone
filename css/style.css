@@ -18,7 +18,7 @@ body {
 
 div {
 	/* adding a border around all 'div's to see where they sit */
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
 }
 
 /* Navigation Banner and Links */
@@ -147,3 +147,47 @@ button:hover {
     margin: 2.5rem 0px 1.875rem;
 }
 /* Footer - Social Networks */
+.social {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 9.375rem;
+    overflow: auto;
+}
+
+.social .content > h5 { 
+    border-top: 1px solid LightGray;
+    padding-top: 0.5rem;
+    font-size: 100%;
+}
+
+.social .icons {
+    padding: 0;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social > span {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}

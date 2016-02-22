@@ -154,12 +154,15 @@ button:hover {
     overflow: auto;
 }
 
-.social .content > h5 { 
-    border-top: 1px solid LightGray;
-    padding-top: 0.5rem;
-    font-size: 100%;
+.social > hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
 
+.social > h5 {
+    font-size: 100%;
+}
 .social .icons {
     padding: 0;
 }
